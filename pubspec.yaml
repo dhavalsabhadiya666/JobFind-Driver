@@ -1,0 +1,77 @@
+name: telescope_driver
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sizer: 2.0.0
+  flutter_svg: ^0.22.0
+  percent_indicator:
+# stepper
+  vertical_stepper:
+# calender
+  table_calendar: 3.0.0
+#  date range picker
+  syncfusion_flutter_datepicker:
+#    persistance bottom navigationbar
+  persistent_bottom_nav_bar: ^4.0.2
+  fl_chart: ^0.50.0
+  change_app_package_name: ^1.0.0
+
+
+
+#barcode scan
+  flutter_barcode_scanner:
+  barcode_widget:
+#    literolling switch
+  lite_rolling_switch:
+
+  cupertino_icons: ^1.0.2
+
+  http: ^0.13.4
+  file_picker: ^4.5.1
+  get: ^4.6.1
+  get_storage: ^2.0.3
+  permission_handler: ^9.2.0
+  geolocator: ^8.2.0
+  syncfusion_flutter_sliders: ^20.1.51
+  pinput: ^2.2.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/icon/
+    - assets/images/image/
+    - assets/images/temImage/
+
+  fonts:
+     - family: Gordita
+       fonts:
+          - asset: assets/fonts/Gordita Medium.otf
+#      - asset: assets/fonts/Gordita Medium.otf
+#  #  #         style: italic
+     - family: Gilroy
+       fonts:
+          - asset: assets/fonts/Gilroy-Bold.ttf
+#      - asset: assets/fonts/Gilroy-Bold.ttf
+
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
